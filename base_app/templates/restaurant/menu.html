@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="{% static 'restaurant/styles.css' %}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Restaurant Menu</h1>
+        <!-- Restaurant Logo -->
+        <img src="{% static 'restaurant/images/logo.png' %}" alt="Restaurant Logo">
+    </header>
+    
+    <!-- Main Content Section -->
+    <main>
+        <h2>Our Dishes</h2>
+        <!-- Example of Menu Items -->
+        <ul>
+            <li>Dish 1 - $10</li>
+            <li>Dish 2 - $12</li>
+            <li>Dish 3 - $15</li>
+        </ul>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>

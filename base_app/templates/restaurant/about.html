@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="{% static 'restaurant/styles.css' %}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>About Us</h1>
+        <!-- Restaurant Logo -->
+        <img src="{% static 'restaurant/images/logo.png' %}" alt="Restaurant Logo">
+    </header>
+    
+    <!-- Main Content Section -->
+    <main>
+        <h2>Our Story</h2>
+        <p>Welcome to our restaurant! We have been serving delicious meals since 1990.</p>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
